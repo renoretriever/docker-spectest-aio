@@ -40,7 +40,7 @@ Specification test tool all in one.
     1.5.2
     ```
 
-## Infrataster
+## infrataster
 
 - initialize
 
