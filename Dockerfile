@@ -14,7 +14,7 @@ RUN set -x && \
         ruby-dev \
         ruby-rdoc \
         ruby-irb \
-        netcat-openbsd \
+        nmap \
         curl && \
     gem install \
         serverspec \
