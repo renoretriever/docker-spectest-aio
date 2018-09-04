@@ -28,4 +28,5 @@ RUN set -x && \
     curl -fsSL https://goss.rocks/install | ash && \
     rm -rf /var/cache/apk/*
 
+COPY json_formatter.rb /usr/lib/ruby/gems/2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/formatters/json_formatter.rb
 WORKDIR /root/
