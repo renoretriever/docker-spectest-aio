@@ -2,6 +2,8 @@ FROM alpine:latest
 
 MAINTAINER renoretriever <renoretriever@gmail.com>
 
+COPY repositories /etc/apk/repositories
+
 RUN set -x && \
     apk update && \
     apk --update add \
